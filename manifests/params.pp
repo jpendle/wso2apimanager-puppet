@@ -25,7 +25,7 @@
 #
 
 class apimanager::params {
-  $package_repo         = 'http://downloads.wso2.com'
+  $package_repo         = 'http://maven.wso2.org/nexus/content/groups/wso2-public/org/wso2/am/wso2am/1.5.0/'
   $depsync_svn_repo     = 'https://svn.appfactory.domain.com/wso2/repo/'
   $local_package_dir    = '/mnt/packs'
 
